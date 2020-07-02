@@ -1,25 +1,11 @@
-# api-money-node-sdk
-
-Un-official node sdk for [api-money.com](https://www.api-money.com/docs)
-
-## Install
-
-```sh
-$ npm install api-money-node-sdk
-```
-
-## Usage
-
-```js
-const ApiMoney = require("api-money-node-sdk");
+const ApiMoney = require('./index');
 
 const client = new ApiMoney({
   secret_key: 'your_secret_key',
   access_key: 'your_access_key',
-  mode: 'dev', // or 'prod'
+  mode: 'dev',
   version: 1
 });
-
 
 client.request('POST', '/accounts/standard', {
     subscriber: {
@@ -47,5 +33,3 @@ client.request('POST', '/accounts/standard', {
   .catch((error) => {
     console.log(error)
   });
-
-```

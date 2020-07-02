@@ -1,0 +1,29 @@
+{
+  "name": "api-money-node-sdk",
+  "version": "1.0.0",
+  "description": "Node SDK for Api Money",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxgfr/api-money-node-sdk.git"
+  },
+  "keywords": [
+    "api-money-node-sdk",
+    "api-money",
+    "node",
+    "node-sdk",
+    "library"
+  ],
+  "author": "maxgfr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxgfr/api-money-node-sdk/issues"
+  },
+  "homepage": "https://github.com/maxgfr/api-money-node-sdk#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
