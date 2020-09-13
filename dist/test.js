@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("./index");
 const client = new index_1.default({
-    secret_key: 'your_secret_key',
-    access_key: 'your_access_key',
+    secretKey: 'your_secretkey',
+    accessKey: 'your_accessKey',
     mode: 'dev',
     version: 1,
 });
@@ -29,8 +29,8 @@ client
     email: 'maxime@test.com',
 })
     .then((response) => {
-    console.log(response);
+    // console.log(response)
 })
     .catch((error) => {
-    console.log(error);
+    // console.log(error)
 });

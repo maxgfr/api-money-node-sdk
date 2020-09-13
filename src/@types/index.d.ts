@@ -1,6 +1,6 @@
 export interface IConfig {
-  access_key: string
-  secret_key: string
+  accessKey: string
+  secretKey: string
   version: number
   mode: string
 }
