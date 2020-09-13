@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ApiMoney = void 0;
 const axios_1 = require("axios");
 const crypto_1 = require("crypto");
 class ApiMoney {
@@ -34,4 +35,4 @@ class ApiMoney {
         });
     }
 }
-exports.default = ApiMoney;
+exports.ApiMoney = ApiMoney;

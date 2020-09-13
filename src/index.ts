@@ -2,7 +2,7 @@ import axios, { Method } from 'axios'
 import { createHmac } from 'crypto'
 import { IConfig } from './@types'
 
-export default class ApiMoney {
+export class ApiMoney {
   accessKey: string
   secretKey: string
   version: number

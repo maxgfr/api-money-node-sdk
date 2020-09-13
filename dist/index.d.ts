@@ -1,6 +1,6 @@
 import { Method } from 'axios';
 import { IConfig } from './@types';
-export default class ApiMoney {
+export declare class ApiMoney {
     accessKey: string;
     secretKey: string;
     version: number;

@@ -1,6 +1,6 @@
 {
   "name": "api-money-node-sdk",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Node SDK for Api Money",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

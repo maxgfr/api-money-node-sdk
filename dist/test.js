@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("./index");
-const client = new index_1.default({
+const client = new index_1.ApiMoney({
     secretKey: 'your_secretkey',
     accessKey: 'your_accessKey',
     mode: 'dev',
@@ -26,7 +26,7 @@ client
         city: 'Paris',
         country: 'FRA',
     },
-    email: 'maxime@test.com',
+    email: 'skuuuu@test.com',
 })
     .then((response) => {
     // console.log(response)

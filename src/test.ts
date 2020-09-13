@@ -1,4 +1,4 @@
-import ApiMoney from './index'
+import { ApiMoney } from './index'
 
 const client = new ApiMoney({
   secretKey: 'your_secretkey',
@@ -26,7 +26,7 @@ client
       city: 'Paris',
       country: 'FRA',
     },
-    email: 'maxime@test.com',
+    email: 'skuuuu@test.com',
   })
   .then((response) => {
     // console.log(response)
