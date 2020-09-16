@@ -1,6 +1,12 @@
 import axios, { Method } from 'axios'
 import { createHmac } from 'crypto'
-import { IConfig } from './@types'
+
+interface IConfig {
+  accessKey: string
+  secretKey: string
+  version: number
+  mode: string
+}
 
 export class ApiMoney {
   accessKey: string
