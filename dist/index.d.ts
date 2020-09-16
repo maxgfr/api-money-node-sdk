@@ -1,5 +1,5 @@
 import { Method } from 'axios';
-interface IConfig {
+export interface IConfig {
     accessKey: string;
     secretKey: string;
     version: number;
@@ -13,4 +13,3 @@ export declare class ApiMoney {
     constructor(config: IConfig);
     request(type: Method, endpoint: string, data: any): Promise<unknown>;
 }
-export {};

@@ -1,7 +1,7 @@
 import axios, { Method } from 'axios'
 import { createHmac } from 'crypto'
 
-interface IConfig {
+export interface IConfig {
   accessKey: string
   secretKey: string
   version: number
