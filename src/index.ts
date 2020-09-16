@@ -25,7 +25,7 @@ export class ApiMoney {
     }
   }
 
-  request(type: Method, endpoint: string, data: any) {
+  request(type: Method, endpoint: string, data: any): { [key: string]: any } {
     return new Promise((resolve, reject) => {
       const ts = Math.floor(Date.now())
       const toSign = this.accessKey + ':' + ts + ':' + this.version + ':' + JSON.stringify(data)

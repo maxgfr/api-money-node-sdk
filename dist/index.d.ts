@@ -11,5 +11,7 @@ export declare class ApiMoney {
     version: number;
     baseUrl: string;
     constructor(config: IConfig);
-    request(type: Method, endpoint: string, data: any): Promise<unknown>;
+    request(type: Method, endpoint: string, data: any): {
+        [key: string]: any;
+    };
 }
