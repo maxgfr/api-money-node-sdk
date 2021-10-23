@@ -12,15 +12,11 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12'
-      - id: install
-        name: Install Dependencies
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install
         run: yarn
-      - id: build
-        name: Build Dependencies
+      - name: Build
         run: yarn build
       - name: Release
         run: npx semantic-release
