@@ -3,7 +3,7 @@ name: Build code
 on: push
 
 jobs:
-  build_code:
+  build-code:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
