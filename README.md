@@ -10,7 +10,7 @@ $ npm install api-money-node-sdk
 
 ## Usage
 
-```js
+```ts
 const { ApiMoney } = require('api-money-node-sdk')
 
 const client = new ApiMoney({
