@@ -1,6 +1,11 @@
 {
   "name": "api-money-node-sdk",
   "description": "Node SDK for Api Money",
+  "keywords": [
+    "typescript",
+    "api-money",
+    "wrapper"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
