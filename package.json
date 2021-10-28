@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/maxgfr/api-money-node-sdk#readme",
   "dependencies": {
-    "axios": "^0.23.0"
+    "axios": "^0.24.0"
   },
   "devDependencies": {
     "@types/node": "14.17.32",
