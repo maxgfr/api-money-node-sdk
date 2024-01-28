@@ -30,7 +30,7 @@
     "axios": "^1.0.0"
   },
   "devDependencies": {
-    "@types/node": "20.11.9",
+    "@types/node": "20.11.10",
     "prettier": "3.2.4",
     "ts-node": "10.9.2",
     "tslint": "6.1.3",
