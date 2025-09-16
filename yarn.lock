@@ -68,10 +68,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@types/node@22.18.3":
-  version "22.18.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.3.tgz#e1a4eb680a688141cdd369c5a035f48cf8ece9e3"
-  integrity sha512-gTVM8js2twdtqM+AE2PdGEe9zGQY4UvmFjan9rZcVb6FGdStfjWoWejdmy4CfWVO9rh5MiYQGZloKAGkJt8lMw==
+"@types/node@22.18.4":
+  version "22.18.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.18.4.tgz#cecc2120443ec4224e930caf84c66a47fb9e1e47"
+  integrity sha512-UJdblFqXymSBhmZf96BnbisoFIr8ooiiBRMolQgg77Ea+VM37jXw76C2LQr9n8wm9+i/OvlUlW6xSvqwzwqznw==
   dependencies:
     undici-types "~6.21.0"
 
