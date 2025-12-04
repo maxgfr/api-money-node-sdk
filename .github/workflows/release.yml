@@ -25,3 +25,7 @@ jobs:
         run: yarn build
       - name: Release
         run: npx semantic-release
+      - name: Configure npm for OIDC
+        run: npm install -g npm@11.6.1
+      - name: Publish to npm with OIDC
+        run: npm publish
