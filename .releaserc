@@ -4,7 +4,7 @@
     "main",
     "next",
     "next-major",
-    "master"
+    "master",
     {
       "name": "beta",
       "prerelease": true
