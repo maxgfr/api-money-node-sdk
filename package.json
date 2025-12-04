@@ -44,5 +44,5 @@
     "tslint-config-prettier": "1.18.0",
     "typescript": "5.9.3"
   },
-  "version": "1.2.27"
+  "version": "1.2.28"
 }
